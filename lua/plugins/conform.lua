@@ -19,7 +19,9 @@ return {
 	opts = {
 		-- Define your formatters
 		formatters_by_ft = {
+			ruby = { "rufo" },
 			lua = { "stylua" },
+			hcl = { "hclfmt" },
 		},
 		-- Set default options
 		default_format_opts = {
