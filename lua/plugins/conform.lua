@@ -22,7 +22,10 @@ return {
 			ruby = { "rufo" },
 			lua = { "stylua" },
 			go = { "gofmt" },
-			hcl = { "hclfmt" },
+			hcl = { "hcl" },
+			terraform = { "terraform_fmt" },
+			tf = { "terraform_fmt" },
+			["terraform-vars"] = { "terraform_fmt" },
 		},
 		-- Set default options
 		default_format_opts = {
