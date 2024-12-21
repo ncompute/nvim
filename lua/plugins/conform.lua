@@ -21,6 +21,7 @@ return {
 		formatters_by_ft = {
 			ruby = { "rufo" },
 			lua = { "stylua" },
+			go = { "gofmt" },
 			hcl = { "hclfmt" },
 		},
 		-- Set default options
