@@ -41,6 +41,9 @@ vim.opt.hlsearch = false
 -- Highlight matches while typing the search
 vim.opt.incsearch = true
 
+-- Use the system clipboard
+vim.api.nvim_set_option("clipboard", "unnamedplus")
+
 -- Keymaps
 vim.keymap.set("n", "<leader>n", ":bnext<CR>", {})
 vim.keymap.set("n", "<leader>p", ":bprevious<CR>", {})

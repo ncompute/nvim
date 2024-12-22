@@ -1,5 +1,10 @@
 # NVIM
 
+#### Requirements
+```sh
+sudo apt install wl-clipboard
+```
+
 #### Mappings
 ```
 leader leader : search files
