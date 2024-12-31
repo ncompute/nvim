@@ -19,6 +19,7 @@ return {
 	opts = {
 		-- Define your formatters
 		formatters_by_ft = {
+			html = { "htmlbeautifier" },
 			ruby = { "rufo" },
 			lua = { "stylua" },
 			go = { "gofmt" },
