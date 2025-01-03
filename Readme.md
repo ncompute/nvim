@@ -15,4 +15,5 @@ leader e      : open file explorer
 leader n      : next buffer
 leader p      : previous buffer
 leader x      : close buffer
+leader N      : new empty buffer
 ```
